@@ -5,8 +5,8 @@ const div = (a,b)=> {
     return a/b 
 }
 const kalkulasi = (kata, cb)=> {
-    const result = kata + cb(10,11)
+    const result = kata + cb (num1,num2)
     console.log(result)
 }
-kalkulasi('tambah: ',sum)
-kalkulasi('bagi: ', div)
+kalkulasi('tambah: ' 5, 8,sum)
+kalkulasi('bagi: ', 32, 2, div)
